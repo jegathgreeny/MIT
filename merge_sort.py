@@ -1,5 +1,6 @@
 import timeit
 
+
 def merge(left, right):
     result = []
     i, j = 0, 0
@@ -32,3 +33,6 @@ def merge_sort(L=[1, 3, 21, 12, 5, 4, 8, 10, 7, 88, 2, 35, 100, 6, 20, 15, 50, 4
         return merge(left, right)
 
 print(f"merge\t\t{timeit.timeit(merge_sort, number=1)}")
+
+output = merge_sort()
+print(output)
