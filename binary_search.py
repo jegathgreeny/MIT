@@ -13,6 +13,7 @@ def binary_search(list_1, num, low, high):
         print(f'The number is not in the list')
         return False
 
+    # check
     # the middle position is greater than the number
     if list_1[mid] > num:
         # set the highest position as the mid position, because the correct number is greater than the value at mid position
